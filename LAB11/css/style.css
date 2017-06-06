@@ -1,0 +1,6 @@
+img{width:180px;height: 160px;opacity:0.5;}
+img:hover{width:200px;height: 160px;opacity:1;}
+div.image img{display: inline;margin: 3px;border: 1px solid #bebebe;width:200px;height: 160px;margin: 0px 0px;}
+div.image a:hover img{border: 1px solid #333333;}
+div.image{border: 1px solid grey;float: left;}
+.desc{margin-left: 80px;}
