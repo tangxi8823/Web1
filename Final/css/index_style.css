@@ -1,0 +1,260 @@
+*{
+	font-family: '幼圆';
+	font-size:14px;
+} 
+ul, ol, li{
+list-style:none;
+}
+a:link{
+	text-decoration: none;
+}
+html{
+	text-align:center;
+}
+body{
+	width:1060px;
+	margin:0 auto;
+	position:relative;
+	text-align:left;
+}
+div{
+	position:relative;
+}
+#logo{
+	position: relative;
+    top:25px;
+}
+#search2{
+	background-color: RGB(250,5,20);
+	width:60px;
+	height:30px;
+	color:white; 
+	border:none;
+	border-radius:10px;
+
+}
+#search1{
+	border:3px solid RGB(250,5,20);
+	width:160px;
+	height:25px;
+	border-radius:10px;
+
+}
+#search{
+	background-color: RGB(250,5,20);
+	width:250px;
+	border-radius:10px;
+    position: relative;
+    left:770px;
+    bottom:7px;
+}
+
+.language{
+    font-size: 14px;
+    color:RGB(140,140,140);
+    float:right;
+}
+#yuyan{
+	padding-top: 2px;
+	padding-right: 5px;
+	float:left;
+}
+
+.language form{
+	float:right;
+} 
+
+#daohang{
+	width:100%;
+	height:50px;
+	background-image: url(../images/grey1.jpg);
+}
+#daohang li{
+    float:left;
+    font-weight: bold;
+    padding-right:35px;
+    padding-top:12px;
+    list-style-type:none;
+}
+
+#daohang a:link{
+	color:RGB(127,127,127);
+	font-size:16px;
+	padding-top:3px;
+	padding-bottom: 17px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+#daohang a:hover{
+	color:white;
+}
+.red a:hover{
+	color:white;
+	width:auto;
+	height:auto;
+	display:block;
+	background-color: RGB(113,210,140);
+}
+.blue a:hover{
+	color:white;
+	width:auto;
+	height:auto;
+	display:block;
+	background-color:RGB(0,190,240);
+}
+.orange a:hover{
+	color:white;
+	width:auto;
+	height:auto;
+	display:block;
+	background-color:RGB(255,125,0);
+}
+
+#heng{
+	width:100%;
+	height:370px;
+}
+#news1{
+	width:30%;
+	float:left;
+	padding-left:20px; 
+	padding-top: 20px;
+}
+#news1 li{
+	line-height:2em;
+}
+#news2 li{
+	line-height: 2em;
+}
+#news2{
+	width:35%;
+    float:left;
+	padding-top: 20px;
+}
+
+#denglu{
+	width:250px;
+	height:150px;
+	float:left;
+	padding-top:40px;
+	padding-left: 30px;
+}
+#shu{
+	float:left;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+#shu2{
+	padding-bottom: 30px;
+}
+.kuang{
+	float:left;
+    height:60px;
+    color:RGB(90,90,90);
+    font-weight: bold;
+    font-size:15px; 
+}
+.denglu3{
+	border:4px solid RGB(120,120,120);
+	height:20px;
+}
+#submit{
+	border:none;
+	background-color: RGB(250,3,24);
+	color:white;
+	font-weight: bold;
+	height:25px;
+	margin-left: 170px;
+	margin-top: 10px;
+}
+#heng a:link{
+	color:RGB(90,90,90);
+}
+#heng a:hover{
+	color:RGB(250,3,24);
+	text-decoration:underline;
+}
+#little1{
+    position: relative;
+    left:57px;
+    top:70px;
+}
+#little2{
+    position: relative;
+    left:260px;
+    top:98px;
+}
+#little3{
+    position: relative;
+    left:170px;
+    top:42px;
+}
+#heng2{
+	width:100%;
+	height:370px;
+}
+#left{
+	color:RGB(140,140,140);
+	width:300px;
+	font-size: 12px;
+	line-height: 2em;
+	float:left;
+}
+#right{
+	width:690px;
+	height:350px;
+	border:none;
+	background-color: RGB(250,3,24);
+	float:left;
+	margin-left: 60px;
+}
+#wushuang{
+	float:right;
+	padding-top: 37px;
+	padding-right: 35px;
+}
+#wushuangwenzi{
+	color:white;
+	line-height: 2em;
+	padding-top:33px; 
+	padding-left: 10px;
+	font-size: 16px;
+}
+#right a:link{
+	color:white;
+}
+
+#footer{
+	height: 125px;
+	background-image: url(../images/background.png);
+	margin-top: 10px;
+}
+#wenzi{
+	display:block;
+	padding-top: 5px;
+}
+.lianjie ul li{
+	display: inline;
+	color:grey;
+}
+.lianjie ul li a{
+	color: grey;
+	font-weight: bolder;
+}
+.lianjie{
+	height: 30px;
+	margin-left: 190px;
+	margin-top: 40px;
+}
+hr{
+	color:grey;
+	font-weight: bolder;
+	width:700px;
+	margin-right: 190px
+}
+.wenzi1{
+	width: 700px;
+	color: grey;
+	position: center;
+	margin-left: 200px;
+}
